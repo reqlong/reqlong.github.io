@@ -1,12 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>cs</title>
-    <url>/2024/09/27/cs/</url>
-    <content><![CDATA[<p><img src="/2024/09/27/cs/image-20240927002930810.png" alt="image-20240927002930810"  data-tag='post-image' loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'></p>
-]]></content>
-  </entry>
-  <entry>
     <title>bbb</title>
     <url>/2024/09/26/bbb/</url>
     <content><![CDATA[<h1 id="记一次虚拟服务器磁盘负载过高排查"><a href="#记一次虚拟服务器磁盘负载过高排查" class="headerlink" title="记一次虚拟服务器磁盘负载过高排查"></a>记一次虚拟服务器磁盘负载过高排查</h1><h3 id="1-安装-iostat"><a href="#1-安装-iostat" class="headerlink" title="1. 安装 iostat"></a>1. 安装 <code>iostat</code></h3><p>在大多数 Linux 发行版中，<code>iostat</code> 是 <code>sysstat</code> 包的一部分。你可以使用以下命令安装：</p>
@@ -51,6 +45,12 @@
 <li><strong>监控进程</strong>：使用工具（如 <code>iotop</code>）查找消耗大量 I&#x2F;O 的进程，进行优化或限制它们的资源使用。</li>
 </ol>
 <p>根据具体情况选择适合的解决方案</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>cs</title>
+    <url>/2024/09/27/cs/</url>
+    <content><![CDATA[<p><img src="/2024/09/27/cs/image-20240927002930810.png" alt="image-20240927002930810"  data-tag='post-image' loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'></p>
 ]]></content>
   </entry>
   <entry>
