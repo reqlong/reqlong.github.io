@@ -133,4 +133,18 @@
 <p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
 ]]></content>
   </entry>
+  <entry>
+    <title>测试</title>
+    <url>/2024/09/26/%E6%B5%8B%E8%AF%95/</url>
+    <content><![CDATA[<h1 id="ubuntu忘记root密码重置"><a href="#ubuntu忘记root密码重置" class="headerlink" title="ubuntu忘记root密码重置"></a>ubuntu忘记root密码重置</h1><p>1、reboot重启，按住Esc键，出现如下界面，选中第二个选项，然后回车</p>
+<p><img src="C:/Users/52901/Documents/Hexo/source/_posts/%E6%B5%8B%E8%AF%95.assets/webp.webp" alt="img"  data-tag='post-image' loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'></p>
+<p>2、选中第二个选项后，此时按下E键，进入编辑状态：</p>
+<p><img src="C:/Users/52901/Documents/Hexo/source/_posts/%E6%B5%8B%E8%AF%95.assets/webp-1727342620880-1.webp" alt="img"  data-tag='post-image' loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'></p>
+<p>3、此时我们修改如下操作：将ro recovery nomodeset 修改为：rw single init&#x3D;&#x2F;bin&#x2F;bash</p>
+<p><img src="C:/Users/52901/Documents/Hexo/source/_posts/%E6%B5%8B%E8%AF%95.assets/webp-1727342620881-2.webp" alt="img"  data-tag='post-image' loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'></p>
+<p><img src="C:/Users/52901/Documents/Hexo/source/_posts/%E6%B5%8B%E8%AF%95.assets/webp-1727342620881-3.webp" alt="img"  data-tag='post-image' loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'></p>
+<p>4、此时我们按ctrl+X就可以即进入单用户模式，在单用户模式我们输入：passwd进行修改密码，修改完成后，Ctr Alt Del重启即可。（reboot命令无法执行）。</p>
+<p><img src="C:/Users/52901/Documents/Hexo/source/_posts/%E6%B5%8B%E8%AF%95.assets/webp-1727342620881-4.webp" alt="img"  data-tag='post-image' loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'></p>
+]]></content>
+  </entry>
 </search>
