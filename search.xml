@@ -34,8 +34,8 @@
 <h3 id="5-常用联合参数"><a href="#5-常用联合参数" class="headerlink" title="5. 常用联合参数"></a>5. 常用联合参数</h3><p><code>-s</code> 主要用于快速查看系统的整体性能，而不需要关注单个设备的详细信息</p>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">iostat -s -x -d -m 1</span><br></pre></td></tr></table></figure>
 
-<p><img src="C:/Users/52901/Documents/Hexo/source/_posts/%E7%A3%81%E7%9B%98%E8%B4%9F%E8%BD%BD%E6%8E%92%E6%9F%A5.assets/image-20240924144148172.png" alt="image-20240924144148172"  data-tag='post-image' loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'></p>
-<p><img src="C:/Users/52901/Documents/Hexo/source/_posts/%E7%A3%81%E7%9B%98%E8%B4%9F%E8%BD%BD%E6%8E%92%E6%9F%A5.assets/image-20240924144414700.png" alt="image-20240924144414700"  data-tag='post-image' loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'></p>
+<p><img src="/../images/image-20240924144148172.png" alt="image-20240924144148172"  data-tag='post-image' loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'></p>
+<p><img src="/../images/34232.png" alt="image-20240924144414700"  data-tag='post-image' loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'></p>
 <p>如果 <code>%util</code> 达到 100%，说明磁盘忙碌，可能导致性能瓶颈。你可以考虑以下几种解决方案：</p>
 <ol>
 <li><strong>优化 I&#x2F;O 操作</strong>：检查应用程序是否频繁读取或写入数据，优化数据访问模式。</li>
